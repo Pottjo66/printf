@@ -1,6 +1,15 @@
 #include<stdio.h>
 int main() {
-	printf("Hello World\n");
-	return 0;
+	char ascii_art[] =
+		"	/\\__/\\	\n"
+		"	|    |	\n"
+		"	 *  *        \n"
+		"      =   / \\  =      \n"
+		"	   ---          \n"
+	  	"        ----         \n";
+
+	printf("%s", ascii_art);
+		
+		return 0;
 }
 
